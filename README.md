@@ -23,6 +23,7 @@ Build:
 
 ```bash
 autoreconf --force --install
+./configure
 make
 ```
 

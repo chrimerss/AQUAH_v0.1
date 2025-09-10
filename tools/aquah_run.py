@@ -272,7 +272,7 @@ def aquah_run(llm_model_name: str):
     args.selected_point = center_coords
     # default args
     args.basin_shp_path = f'shpFile/Basin_selected.shp'
-    args.basin_level = 5
+    args.basin_level = 4
     args.gauge_meta_path = 'EF5_tools/gauge_meta.csv'
     args.figure_path = 'figures'
     args.basic_data_path = 'BasicData'
@@ -356,7 +356,7 @@ def aquah_run(llm_model_name: str):
     print('--------------------------------------------------------\033[0m\033[0m\n')
     # Input data download
     data_download_flag = False
-    # data_download_flag = True
+    data_download_flag = True
 
     if data_download_flag:
         import importlib

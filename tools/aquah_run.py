@@ -292,7 +292,7 @@ def aquah_run(llm_model_name: str):
     args.figure_path = os.path.join(args.figure_path, current_time)
     args.input_text = input_text
     args.water_balance_type = 'crestphys'
-    args.warmup_flag = True
+    args.warmup_flag = False
     args.warmup_time_step = args.time_step
     args.warmup_days = 30
     args.warmup_time_end = args.time_start
